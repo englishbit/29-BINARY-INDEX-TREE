@@ -4,7 +4,7 @@ using namespace std;
 #define MAX 100000
 int array[MAX]={0};
 int bit[MAX+1]={0};
-
+//logic for update function
 void update(int index,int value,int n){
     while(index<=n){
         bit[index]=bit[index]+value;
@@ -31,3 +31,4 @@ int main(){
 
     return 0;
 }
+
